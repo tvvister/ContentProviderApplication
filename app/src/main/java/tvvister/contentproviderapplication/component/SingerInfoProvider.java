@@ -156,6 +156,7 @@ public class SingerInfoProvider extends ContentProvider {
                 @Override
                 public void failure(RetrofitError error) {
 
+                    
                 }
             });
         }
