@@ -23,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 while (true) {
                     try {
+
+
+
+
                         Thread.sleep(2000);
                         Cursor cursor = getContentResolver().query(uri, null, null,
                                 null, null);

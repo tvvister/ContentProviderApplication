@@ -22,6 +22,10 @@ import tvvister.contentproviderapplication.data.SingerInfo;
  * Created by Andrey on 06.08.2016.
  */
 public class SingerInfoProvider extends ContentProvider {
+
+
+
+
     public final static String AUTHORITY = "tvvister.contentproviderapplication.component";
     public static final String ARTISTS = "artists";
 
